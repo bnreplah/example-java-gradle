@@ -30,9 +30,7 @@ jobs:
           
       - name: Build with Gradle
         run: |
-          gradle
-          gradle tasks
-      # ./gradlew build
+          gradle build
       
 #      - name: Veracode Dependency Scanning
 #        run: |
